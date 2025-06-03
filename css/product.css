@@ -1,0 +1,6 @@
+.product-img img{
+    width: 300px;
+}
+.product-description {
+    display: flex;
+}

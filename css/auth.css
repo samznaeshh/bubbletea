@@ -1,0 +1,114 @@
+/* авторизация */
+.authh {
+    margin: 80px 0 80px 0;
+    height: 490px;
+    width: 1000px;
+    border: 5px solid #7C7FB4;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-between
+}
+
+.right {
+    height: 100%;
+    width: 100%;
+}
+
+.input-auth {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.auth-text-main {
+    font-size: 32px;
+    color: #7C7FB4;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.inputt {
+    width: 400px;
+    height: 40px;
+    border: 1px solid #7C7FB4;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+.inputt::placeholder {
+    font-size: 16px;
+    color: #CECFE3;
+}
+
+.button-auth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0px;
+    border-radius: 25px;
+    width: 150px;
+    height: 40px;
+    background-color: #A2BC6A;
+    font-size: 16px;
+    color: white;
+    position: relative;
+    left: -125px;
+}
+.button-auth:hover {
+    background-color: #b4ce7d;
+    cursor: pointer;
+}
+
+.auth-text {
+    margin-top: 20px;
+    position: relative;
+    left: -10px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+.auth-text1 {
+    margin: 0;
+    margin-right: 5px;
+}
+.auth-text2 {
+    font-size: 16px;
+    margin: 0;
+    color: #7C7FB4;
+}
+
+/* Регистрация */
+
+.left {
+    height: 100%;
+    width: 100%;
+}
+.button-reg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0px;
+    border-radius: 25px;
+    width: 260px;
+    height: 40px;
+    background-color: #A2BC6A;
+    font-size: 16px;
+    color: white;
+    position: relative;
+    left: -67px;
+}
+.button-reg:hover {
+    background-color: #b4ce7d;
+    cursor: pointer;
+}
+
+.reg-text {
+    margin-top: 20px;
+    position: relative;
+    left: -80px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}

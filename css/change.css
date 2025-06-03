@@ -1,0 +1,25 @@
+form {
+    margin-bottom: 20px;
+}
+button {
+
+    font-size: 16px;
+    height: 25px;
+    width: 200px;
+    background-color: #A2BC6A;
+    color: #ffff;
+    border-radius: 10px;
+    border: 0px;
+}
+
+button:hover{
+    background-color: #97af64;
+}
+.ioy {
+    width: 200px;
+    height: 25px;
+    border: 1px solid #7C7FB4;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}

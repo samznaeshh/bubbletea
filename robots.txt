@@ -1,0 +1,11 @@
+* ссылка на карту сайта
+Sitemap: http://sashasov.baget.tech/sitemap.xml
+
+User-agent: *
+Allow: http://sashasov.baget.tech/ #главная страница
+Allow: http://sashasov.baget.tech/products/catalog.html #страница с каталогом
+Allow: http://sashasov.baget.tech/products/catalog.html/topings.html #страница с товарами
+
+User-agent: *
+Disallow: http://sashasov.baget.tech/application/auth.html #запрет на страницу входа
+Disallow: http://sashasov.baget.tech/application/registration.html #запрет на страницу регистрации
